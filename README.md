@@ -13,8 +13,10 @@
   <br/>
  -AdMob
   <br/>
- -Lottie Animation
-   <br/>
+ -Lottie Animation<br/>
+ -Google Maps<br/>
+ -Recyclerview
+ <br/>
 
  ## Ekran görüntüntüleri
   **SPLASH SCREEN:**
