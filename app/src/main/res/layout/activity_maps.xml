@@ -1,0 +1,335 @@
+<RelativeLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    Android:layout_width="match_parent"
+    Android:layout_height="match_parent">
+
+
+    <LinearLayout
+        Android:id="@+id/lineer"
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentLeft="true"
+        Android:layout_alignParentTop="true"
+        Android:background="#37966F"
+        Android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            Android:layout_width="match_parent"
+            Android:layout_height="wrap_content"
+            Android:layout_margin="3dp"
+            Android:padding="3dp"
+            map:cardBackgroundColor="#B9E4C9"
+            map:cardCornerRadius="15dp">
+
+            <LinearLayout
+                Android:layout_width="match_parent"
+                Android:layout_height="match_parent"
+                Android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    Android:layout_width="match_parent"
+                    Android:layout_height="match_parent"
+                    Android:layout_margin="3dp"
+                    Android:padding="2dp"
+                    map:cardBackgroundColor="#37966F"
+                    map:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        Android:layout_width="match_parent"
+                        Android:layout_height="match_parent"
+                        Android:layout_margin="1dp"
+                        Android:orientation="vertical">
+
+                        <TextView
+                            Android:id="@+id/textView"
+                            Android:layout_width="match_parent"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="3dp"
+                            Android:gravity="center"
+                            Android:padding="3dp"
+                            Android:text="BİLGİLER"
+                            Android:textColor="#fffbe6"
+                            Android:textSize="24sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    Android:layout_width="match_parent"
+                    Android:layout_height="match_parent"
+                    Android:layout_margin="1dp"
+                    Android:orientation="vertical">
+
+                    <LinearLayout
+                        Android:layout_width="wrap_content"
+                        Android:layout_height="match_parent"
+                        Android:orientation="horizontal">
+
+                        <TextView
+                            Android:id="@+id/textView17"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TARİH :"
+                            Android:textSize="18sp"
+                            Android:textStyle="bold" />
+
+                        <TextView
+                            Android:id="@+id/txt_tarih_map"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TextView"
+                            Android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        Android:id="@+id/view4"
+                        Android:layout_width="match_parent"
+                        Android:layout_height="2dp"
+                        Android:background="#FFFBE6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    Android:layout_width="match_parent"
+                    Android:layout_height="match_parent"
+                    Android:layout_margin="1dp"
+                    Android:orientation="vertical">
+
+                    <LinearLayout
+                        Android:layout_width="wrap_content"
+                        Android:layout_height="match_parent"
+                        Android:orientation="horizontal">
+
+                        <TextView
+                            Android:id="@+id/textView15"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="SAAT :"
+                            Android:textSize="18sp"
+                            Android:textStyle="bold" />
+
+                        <TextView
+                            Android:id="@+id/txt_saat_map"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TextView"
+                            Android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        Android:id="@+id/view12"
+                        Android:layout_width="match_parent"
+                        Android:layout_height="2dp"
+                        Android:background="#FFFBE6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    Android:layout_width="match_parent"
+                    Android:layout_height="match_parent"
+                    Android:layout_margin="1dp"
+                    Android:orientation="vertical">
+
+                    <LinearLayout
+                        Android:layout_width="wrap_content"
+                        Android:layout_height="match_parent"
+                        Android:orientation="horizontal">
+
+                        <TextView
+                            Android:id="@+id/textView13"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="DERİNLİK :"
+                            Android:textSize="18sp"
+                            Android:textStyle="bold" />
+
+                        <TextView
+                            Android:id="@+id/txt_derinlik_map"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TextView"
+                            Android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        Android:id="@+id/view13"
+                        Android:layout_width="match_parent"
+                        Android:layout_height="2dp"
+                        Android:background="#FFFBE6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    Android:layout_width="match_parent"
+                    Android:layout_height="match_parent"
+                    Android:layout_margin="1dp"
+                    Android:orientation="vertical">
+
+                    <LinearLayout
+                        Android:layout_width="wrap_content"
+                        Android:layout_height="match_parent"
+                        Android:orientation="horizontal">
+
+                        <TextView
+                            Android:id="@+id/textView11"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="ŞİDDET :"
+                            Android:textSize="18sp"
+                            Android:textStyle="bold" />
+
+                        <TextView
+                            Android:id="@+id/txt_siddet_map"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TextView"
+                            Android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <View
+                        Android:id="@+id/view14"
+                        Android:layout_width="match_parent"
+                        Android:layout_height="2dp"
+                        Android:background="#FFFBE6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    Android:layout_width="match_parent"
+                    Android:layout_height="match_parent"
+                    Android:layout_margin="1dp"
+                    Android:orientation="vertical">
+
+                    <LinearLayout
+                        Android:layout_width="wrap_content"
+                        Android:layout_height="match_parent"
+                        Android:orientation="horizontal">
+
+                        <TextView
+                            Android:id="@+id/textView9"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="YER :"
+                            Android:textSize="18sp"
+                            Android:textStyle="bold" />
+
+                        <TextView
+                            Android:id="@+id/txt_yer_map"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TextView"
+                            Android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <View
+                        Android:id="@+id/view15"
+                        Android:layout_width="match_parent"
+                        Android:layout_height="2dp"
+                        Android:background="#FFFBE6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    Android:layout_width="match_parent"
+                    Android:layout_height="match_parent"
+                    Android:layout_margin="1dp"
+                    Android:orientation="vertical">
+
+                    <LinearLayout
+                        Android:layout_width="wrap_content"
+                        Android:layout_height="match_parent"
+                        Android:orientation="horizontal">
+
+                        <TextView
+                            Android:id="@+id/textView4"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TİP :"
+                            Android:textSize="18sp"
+                            Android:textStyle="bold" />
+
+                        <TextView
+                            Android:id="@+id/txt_tip_map"
+                            Android:layout_width="wrap_content"
+                            Android:layout_height="wrap_content"
+                            Android:layout_margin="5dp"
+                            Android:layout_weight="1"
+                            Android:fontFamily="@font/futurabook"
+                            Android:padding="2dp"
+                            Android:text="TextView"
+                            Android:textSize="18sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <Button
+        Android:layout_width="wrap_content"
+        Android:layout_height="wrap_content"
+        Android:layout_alignParentStart="true"
+        Android:layout_alignParentBottom="true"
+        Android:id="@+id/btn_uydu"
+        Android:text="UYDU"/>
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:layout_below="@+id/lineer"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" />
+
+</RelativeLayout>
